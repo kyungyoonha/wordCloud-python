@@ -91,5 +91,5 @@ def validate():
     return jsonify(result)
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', port=5008, threaded=True) 
+    app.run('0.0.0.0', port=80, threaded=True) 
     # threded 옵션 => 속도향상
